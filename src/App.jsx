@@ -96,13 +96,13 @@ function App() {
             class={`bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-8 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-green-400 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer`}
             onClick={() => setInputMethod('voice')}
           >
-            ابدأ التحدث
+            محادثة صوتية
           </button>
           <button
             class={`bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-8 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer`}
             onClick={() => setInputMethod('text')}
           >
-            اكتب سؤالك
+            محادثة كتابية
           </button>
         </div>
       </Show>
